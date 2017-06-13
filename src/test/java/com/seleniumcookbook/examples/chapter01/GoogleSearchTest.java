@@ -22,7 +22,7 @@ public class GoogleSearchTest {
     @Before
     public void setUp() {
         //Launch a new Firefox instance
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\Uriel\\Desktop\\geckodriver-v0.17.0-win64\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","src\\test\\resources\\drivers\\geckodriver.exe");
         driver = new FirefoxDriver();
 
         //Maximize the browser window
